@@ -1,0 +1,34 @@
+GIT
+  remote: git@github.com:aoyama-val/unicorn.git
+  revision: bbd270b31c4acd7b84537dbc6040a537e7c1a1ad
+  branch: bbd270b
+  specs:
+    unicorn (5.5.0)
+      kgio (~> 2.6)
+      raindrops (~> 0.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    kgio (2.11.2)
+    mustermann (1.0.3)
+    rack (2.0.7)
+    rack-protection (2.0.7)
+      rack
+    raindrops (0.19.0)
+    sinatra (2.0.7)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.7)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sinatra
+  unicorn!
+
+BUNDLED WITH
+   1.16.3
